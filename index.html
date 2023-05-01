@@ -5,34 +5,117 @@
     <style>
       body {
         font-family: "Rounded Mplus 1c";
-      	background-color: cream;
-        color: #495063; 
+      	background-color: #3700B3;  
+        background: linear-gradient(to bottom, black, #3700B3);
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
       }
-			
+      .col-md-6 {
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .col-md-6 img {
+        width: 50%;
+        height: auto;
+        margin-top: 110px;
+        
+      }
+    
+      h5 {
+        font-size: 50px;
+        font-weight: 800;
+        margin-bottom: 30px;
+        margin-top: 110px;
+       
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+      }
+      p {
+        font-size: 17px;
+        font-weight: 500;
+        /* text-shadow: 2px 2px 4px rgba(0,0,0,0.5); */
+      }
+      header {
+        height: 65px;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 9999;
+      }
+      header .btn {
+        font-family: "Rounded Mplus 1c";
+        border-radius: 20px;
+        font-size: 17px;
+        font-weight: 800;
+        text-shadow: none;
+        /* margin-right: 10px; */
+        border: none;
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+        text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+      }
+      footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        box-shadow: 4px 0px 0px rgba(0, 0, 0, 0.25);
+        padding: 10px;
+        text-align: center;
+      }
+      header img {
+        width: 200px;
+        /* display: block;
+        margin: 0 auto; */
+      }
+      a {
+        color: white;
+      }
+			a:hover {
+        color:  #03DAC5;
+        font-weight: 800;
+      }
+     
 
     </style>
   </head>
   <body>
+    <header style="background-color: black; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); padding: 20px;">
+      <img src="pictures/conzensus-logo.png" alt="Conzensus Logo" className="logo" /> 
+      <a href="http://conzensus.capstone.ischool.uw.edu/" target="_blank">
+        <button class="btn btn-sm btn-primary rounded ml-auto" style="background-color: 03DAC5; border-radius: 20px; padding: 10px 20px; color: #fff;">Try Now!</button>
+      </a>
+    </header>
     <main class="container">
       <div class="row">
         <div class="col-md-6">
-          <h1>Conzensus</h1>
-          <h5>
+          
+          <h5 >
             Join Together
             <br>
             Choose Faster
             <br>
-          	Go Discover
+          	Go Discover.
           </h5>
 
 					<br>
-          <p>Conzensus is a fun and easy-to-use app designed to help groups of people decide on activities to do or where to eat. With Conzensus, users can select from a variety of broad categories that interest them, such as restaurants, bars, parks, or museums. The app then recommends individual places within these categories that users can swipe right if they like or swipe left if they dislike.</p>
-
-          <p>Whether you're planning a night out with friends or a family outing, Conzensus makes it easy to find the perfect activity or restaurant that everyone will enjoy. So why not download Conzensus today and start planning your next adventure?</p>
+          <p id="hook">Tired of indecisive friends and endless group chats when planning your next outing? Let Conzensus bring some zen to your decision making!</p>
+            
+          <p>With our easy-to-use platform, simply select broad categories like parks or bars, and swipe through recommended options to find the perfect activity or restaurant. Whether it's a night out with friends or a family day trip, Conzensus makes planning a breeze. So why not try Conzensus today and start planning your next adventure?</p>
           
-          <p>Check out conzensus 
+          <p>Check out Conzensus 
             <a href="http://conzensus.capstone.ischool.uw.edu/">here!</a>
           </p>
+       
        	</div>
       	    <div class="col-md-6">
                 <img src="./pictures/vote.PNG"></img>
@@ -40,5 +123,6 @@
         </div>
       </div>
   	</main>
+    <footer style="background-color:  03DAC5; height: 30px;"></footer>
   </body>
 </html>
