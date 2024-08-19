@@ -1,7 +1,6 @@
-
-
 body {
-    font-family: "Rounded Mplus 1c" !important;
+    font-family: "Poppins" !important;
+    background-color: #0d1117;  
+    background: linear-gradient(to bottom, black, hsl(216, 80%, 15%));
+    color: white;
 }
-
-
