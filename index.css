@@ -1,6 +1,11 @@
+html {
+    min-height: 100%
+}
+
 body {
-    font-family: "Poppins" !important;
-    background-color: #0d1117;  
+    font-family: "Poppins";
     background: linear-gradient(to bottom, black, hsl(216, 80%, 15%));
+    background-color: hsl(216, 80%, 15%);  
+    background-repeat: no-repeat;
     color: white;
 }
