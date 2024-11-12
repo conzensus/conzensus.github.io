@@ -9,3 +9,21 @@ body {
     background-repeat: no-repeat;
     color: white;
 }
+
+a {
+    color: hsl(44, 100%, 57%);
+    text-decoration: none;
+}
+
+a:hover {
+    color: hsl(44, 100%, 70%);
+}
+
+#page-footer {
+    background-color: hsl(273, 75%, 58%);
+    height: 30px;
+}
+
+.profile-pic {
+    width: 10em;
+}
