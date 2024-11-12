@@ -27,3 +27,7 @@ a:hover {
 .profile-pic {
     width: 10em;
 }
+
+aside {
+    box-shadow: inset 0px 11px 8px -10px black; 
+}
